@@ -23,6 +23,12 @@
       <change afterPath="$PROJECT_DIR$/../LeetCode/src/TestOccurences.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LeetCode/src/UniqueElements.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Test_Algo/src/ReTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pack/mono/LearnMono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pack/mono/MonoEmptyOrError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pack/mono/MonoFromFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pack/mono/MonoFromSupplierAndCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pack/mono/LearnStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pack/mono/LearnStream.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +70,61 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MonoFromFuture">
+    <configuration name="LearnMono" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pack.mono.LearnMono" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pack.mono.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearnStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pack.mono.LearnStream" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pack.mono.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoEmptyOrError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pack.mono.MonoEmptyOrError" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pack.mono.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoFromFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pack.mono.MonoFromFuture" />
+      <module name="reactor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pack.mono.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonoFromSupplierAndCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pack.mono.MonoFromSupplierAndCallable" />
       <module name="reactor" />
       <extension name="coverage">
         <pattern>
@@ -93,6 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MonoFromFuture" />
+        <item itemvalue="Application.MonoFromSupplierAndCallable" />
+        <item itemvalue="Application.MonoEmptyOrError" />
+        <item itemvalue="Application.LearnMono" />
         <item itemvalue="Application.LearnStream" />
       </list>
     </recent_temporary>
@@ -106,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626749030825</updated>
       <workItem from="1626749032277" duration="1151000" />
-      <workItem from="1626750431454" duration="738000" />
+      <workItem from="1626750431454" duration="3031000" />
     </task>
     <servers />
   </component>
